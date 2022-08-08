@@ -79,3 +79,18 @@ require('lspconfig')['pyright'].setup {
     capabilities = capabilities
 }
 
+require('lspconfig')['tailwindcss'].setup {
+  capabilities = capabilities
+}
+
+require('lspconfig')['html'].setup {
+  capabilities = capabilities
+}
+
+require('lspconfig')['prismals'].setup {
+  capabilities = capabilities
+}
+
+require('lspconfig')['vls'].setup {
+  capabilities = capabilities
+}
